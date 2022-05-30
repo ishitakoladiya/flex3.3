@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BIRDS</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: verdana;
+      }
+
+      .main-container {
+        border: 4px solid #826a98;
+        display: flex; /* block level flex container */
+      }
+
+      .item {
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 0.75rem;
+        text-align: center;
+        flex-shrink: 3; /* default 1, so all items will shrink */
+        /* flex-shrink: 0; */ /* No items will shrink - will get scrollbar */
+        
+        width: 200px;
+      }
+
+      .item-1 {
+        background-color:#DDA0DD;
+      }
+
+      .item-2 {
+        background-color:#BF94E4;
+        /*flex-shrink: 2; /* shrink relatively twice / 2 times than other items */
+      }
+
+      .item-3 {
+        background-color:#734F96;
+        /*flex-shrink: 4; /* shrink relatively 4 times than other items */
+      }
+
+      .item-4 {
+        background-color:#FBAED2;
+      }
+
+      .item-5 {
+        background-color:#EE82EE;
+      
+      
+      
+      } */
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="main-container">
+      <div class="item item-1">HORNBILL</div>
+      <div class="item item-2">CROW</div>
+      <div class="item item-3">PARROT</div>
+      <div class="item item-4">SWAN</div>
+      <div class="item item-5">PEACOCK</div>
+    </div>
+    
+  </body>
+  
+</html>
